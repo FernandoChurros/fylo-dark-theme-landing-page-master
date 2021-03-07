@@ -1,0 +1,25 @@
+.beneficios {
+	margin: 10rem 0;
+}
+
+.beneficios img {
+	margin: 4rem 0 2rem;
+}
+
+@media (min-width: 1000px) {
+	.beneficios {
+		display: flex;
+		justify-content: space-between;
+		flex-flow: wrap;
+		width: 800px;
+		margin: 10rem auto;
+	}
+
+	.beneficios_item {
+		width: 350px;
+	}
+
+	.beneficios_item img {
+		height: 90px;
+	}
+}

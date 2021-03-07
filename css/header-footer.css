@@ -1,6 +1,7 @@
 /*Cabeçalho*/
 .header {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	height: 80px;
 }
@@ -21,14 +22,11 @@
 }
 
 @media (max-width: 1000px) {
-	.header {
-		justify-content: space-around;
-	}
+	.header {}
 }
 
 @media (min-width: 1000px) {
 	.header {
 		margin: 0 3rem;
-		justify-content:  space-between;
 	}
 }

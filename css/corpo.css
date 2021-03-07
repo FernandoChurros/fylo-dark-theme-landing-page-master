@@ -8,15 +8,27 @@
 	font-family:  'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #FFF;
+	text-align: center;
 }
 
 header, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 }
 
+p {
+	margin: 2rem 0;
+	vertical-align: top;
+}
+
 body {
-	/*background-image: url('../images/backgrounds/illustration-intro.png');*/
+	background-color: hsl(218, 28%, 13%);
+	/*background-image: url('../images/backgrounds/bg-curvy-mobile.svg');
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-color: hsl(218, 28%, 13%);
+	background-position:  center;*/
+	/*background-color: #000;*/
+	margin: 0 2rem;
+}
+img {
+	object-fit: contain;
 }

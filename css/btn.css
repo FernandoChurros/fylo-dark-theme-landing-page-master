@@ -1,0 +1,17 @@
+.btn {
+	background-color: hsl(176, 68%, 64%);
+	border-radius: 150px;
+	padding: 1rem;
+}
+
+@media (max-width: 1000px) {
+	.btn {
+		width: 80%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.btn {
+		width: 50%;
+	}
+}
