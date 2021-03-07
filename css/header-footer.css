@@ -1,7 +1,6 @@
 /*Cabeçalho*/
 .header {
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
 	height: 80px;
 }
@@ -19,4 +18,17 @@
 
 .header_navigation a:last-child {
 	margin-right: 0;
+}
+
+@media (max-width: 1000px) {
+	.header {
+		justify-content: space-around;
+	}
+}
+
+@media (min-width: 1000px) {
+	.header {
+		margin: 0 3rem;
+		justify-content:  space-between;
+	}
 }
