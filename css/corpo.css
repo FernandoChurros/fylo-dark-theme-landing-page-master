@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+:root {
+	font-family:  'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #FFF;
+}
+
+header, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	/*background-image: url('../images/backgrounds/illustration-intro.png');*/
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: hsl(218, 28%, 13%);
+}
