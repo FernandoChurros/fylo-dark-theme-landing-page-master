@@ -5,18 +5,25 @@
 }
 
 :root {
-	font-family:  'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #FFF;
 	text-align: center;
 	font-size: 14px;
 }
 
-header, h1, h2, h3, h4, h5, h6 {
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Raleway', sans-serif;
 }
 
 p {
-	margin: 2rem 0;	font-size: 14px;
+	margin: 2rem 0;
+	font-size: 14px;
 }
 
 a {
@@ -26,13 +33,28 @@ a {
 
 body {
 	
-	background: linear-gradient(to bottom,hsl(217, 28%, 15%) 31.6%, hsl(218, 28%, 13%)31.6% 87% ,  hsl(216, 53%, 9%) 87%);
-/**/
+}
+
+main, header, footer {
 	margin: 0 2rem;
 }
 
-main {
-	background-image: url("../images/backgrounds/bg-curvy-desktop.svg");
-	background-position: 0 550px;
-	background-repeat: no-repeat;
+@media (max-width: 1000px) {
+	body {
+		background: 
+		url("../images/backgrounds/bg-curvy-mobile.svg") 
+		no-repeat
+		0 230px,
+		linear-gradient(to bottom, hsl(217, 28%, 15%) 7.6%, hsl(218, 28%, 13%)7.6% 80%, hsl(216, 53%, 9%) 80%) ;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		background: 
+		url("../images/backgrounds/bg-curvy-desktop.svg")
+		no-repeat
+		0 550px,
+		linear-gradient(to bottom, hsl(217, 28%, 15%) 29%, hsl(218, 28%, 13%)29% 87%, hsl(216, 53%, 9%) 87%);
+	}
 }
