@@ -1,0 +1,38 @@
+.produtividade {
+	text-align: left;
+	margin-bottom: 10rem;
+}
+
+.produtividade_wrapper h2 {
+	font-size: 2rem;
+}
+
+.produtividade_wrapper a {
+	border-bottom: 2px solid hsl(176, 68%, 64%);
+	color: hsl(176, 68%, 64%);
+}
+
+.produtividade_wrapper a::after {
+	content: url("../images/icons/icon-arrow.svg");
+	position: relative;
+	bottom: -3.5px;
+}
+
+@media (max-width: 1000px) {
+	.produtividade img {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.produtividade {
+		display: flex;
+		align-items: center;
+		margin-left: 3rem;
+	}
+
+	.produtividade_wrapper {
+		width: 500px;
+		margin-left: 5rem;
+	}
+}
