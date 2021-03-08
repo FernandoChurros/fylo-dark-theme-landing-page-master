@@ -8,17 +8,24 @@
 	.btn {
 		width: 80%;
 	}
+
 	.--cadastro {
-	width: 100%;
-}
+		width: 100%;
+	}
 }
 
 @media (min-width: 1000px) {
 	.btn {
 		width: 50%;
+		transition: background-color 200ms linear;
 	}
-	.--cadastro {
-	width: 25%;
-}
-}
 
+	.btn:hover {
+		cursor: pointer;
+		background-color: hsl(198, 60%, 50%);
+	}
+
+	.--cadastro {
+		width: 25%;
+	}
+}

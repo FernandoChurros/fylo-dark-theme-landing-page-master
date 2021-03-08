@@ -25,9 +25,14 @@ a {
 }
 
 body {
-	background-color: hsl(218, 28%, 13%);
+	
+	background: linear-gradient(to bottom,hsl(217, 28%, 15%) 31.6%, hsl(218, 28%, 13%)31.6% 87% ,  hsl(216, 53%, 9%) 87%);
+/**/
 	margin: 0 2rem;
 }
-img {
-	object-fit: contain;
+
+main {
+	background-image: url("../images/backgrounds/bg-curvy-desktop.svg");
+	background-position: 0 550px;
+	background-repeat: no-repeat;
 }

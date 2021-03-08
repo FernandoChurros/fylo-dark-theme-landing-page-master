@@ -27,4 +27,8 @@
 	.header {
 		margin: 0 3rem;
 	}
+
+	.header_navigation a:hover {
+		text-decoration: underline;
+	}
 }
