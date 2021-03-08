@@ -8,10 +8,17 @@
 	.btn {
 		width: 80%;
 	}
+	.--cadastro {
+	width: 100%;
+}
 }
 
 @media (min-width: 1000px) {
 	.btn {
 		width: 50%;
 	}
+	.--cadastro {
+	width: 25%;
 }
+}
+
