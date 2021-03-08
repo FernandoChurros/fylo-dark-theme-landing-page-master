@@ -1,0 +1,79 @@
+.footer {
+	text-align: left;
+}
+
+.footer a {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+/* Contatos */
+.footer_contatos {
+	margin-bottom: 5rem;
+}
+
+.footer_contatos p {
+	white-space: pre;
+}
+
+.footer_contatos p::before {
+	content: url("../../images/icons/icon-location.svg");
+	margin-right: 1rem;
+}
+
+.footer_contatos a:first-child::before {
+	content: url("../../images/icons/icon-phone.svg");
+	margin-right: 1rem;
+}
+
+.footer_contatos a:last-child::before {
+	content: url("../../images/icons/icon-email.svg");
+	margin-right: 1rem;
+}
+
+.sobre_navigation {
+	margin-bottom: 3rem;
+}
+
+.footer_redes-sociais {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 2rem;
+}
+
+@media (min-width: 1000px) {
+	.footer {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.footer_contatos {
+		display: flex;
+		align-items: center;
+	}
+
+	.footer_contatos p {
+		margin-right: 2rem;
+	}
+
+	.footer_contatos address {
+		margin-right: 2rem;
+	}
+
+	.footer_sobre {
+		display: flex;
+	}
+
+	.sobre_navigation {
+		margin-right: 3rem;
+	}
+
+	.footer_redes-sociais a {
+		margin-right: 3rem;
+	}
+
+	.footer_redes-sociais a:last-child {
+		margin-right: 0;
+	}
+}
