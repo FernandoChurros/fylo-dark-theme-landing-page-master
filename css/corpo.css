@@ -45,7 +45,7 @@ main, header, footer {
 		url("../images/backgrounds/bg-curvy-mobile.svg") 
 		no-repeat
 		0 230px,
-		linear-gradient(to bottom, hsl(217, 28%, 15%) 7.6%, hsl(218, 28%, 13%)7.6% 80%, hsl(216, 53%, 9%) 80%) ;
+		linear-gradient(to bottom, hsl(217, 28%, 15%) 370px, hsl(218, 28%, 13%)370px 80%, hsl(216, 53%, 9%) 80%) ;
 	}
 }
 
@@ -55,6 +55,6 @@ main, header, footer {
 		url("../images/backgrounds/bg-curvy-desktop.svg")
 		no-repeat
 		0 550px,
-		linear-gradient(to bottom, hsl(217, 28%, 15%) 29%, hsl(218, 28%, 13%)29% 87%, hsl(216, 53%, 9%) 87%);
+		linear-gradient(to bottom, hsl(217, 28%, 15%) 980px, hsl(218, 28%, 13%)980px 87%, hsl(216, 53%, 9%) 87%);
 	}
 }
